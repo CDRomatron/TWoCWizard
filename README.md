@@ -1,5 +1,5 @@
 # TWoCWizard
- A setup for the (TWoC Load Remover)[https://github.com/CDRomatron/TWoCLoadRemover]
+ A setup for the [TWoC Load Remover](https://github.com/CDRomatron/TWoCLoadRemover)
  
  Due to the complexity of the Load Remover application, this acts as a guide to lead you through the initial setup.
  
