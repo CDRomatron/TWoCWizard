@@ -13,7 +13,7 @@
         <Image x:Name="imgScreenshot" HorizontalAlignment="Left" Height="100" Margin="295,32,0,0" VerticalAlignment="Top" Width="100"/>
         <Label x:Name="label" Content="Preview" HorizontalAlignment="Left" Margin="67,132,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label1" Content="Screenshot" HorizontalAlignment="Left" Margin="312,132,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="labelXbox" Content="Whilst LOADING is in the preview, press the screenshot button.&#xA;Enter a value slightly higher than the value on the left when the&#xD;&#xA;word LOADING is shown in full. The tick box only need to tick once&#xD;&#xA;per loading screen for this to work correctly." HorizontalAlignment="Left" Margin="37,205,0,0" VerticalAlignment="Top" Height="90" Width="380" Visibility="Hidden"/>
+        <Label x:Name="labelXBOX" Content="Whilst LOADING is in the preview, press the screenshot button.&#xA;Enter a value slightly higher than the value on the left when the&#xD;&#xA;word LOADING is shown in full. The tick box only need to tick once&#xD;&#xA;per loading screen for this to work correctly." HorizontalAlignment="Left" Margin="37,205,0,0" VerticalAlignment="Top" Height="90" Width="380" Visibility="Hidden"/>
         <Button x:Name="btnScreenshot" Content="Screenshot" HorizontalAlignment="Left" Margin="183,92,0,0" VerticalAlignment="Top" Width="75" Click="btnScreenshot_Click"/>
         <TextBox x:Name="tbxValue" HorizontalAlignment="Left" Height="23" Margin="36,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109" IsEnabled="False"/>
         <TextBox x:Name="tbxThreshold" HorizontalAlignment="Left" Height="23" Margin="160,168,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="76"/>
