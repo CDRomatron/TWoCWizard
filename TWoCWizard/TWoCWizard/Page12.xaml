@@ -1,0 +1,16 @@
+﻿<Page x:Class="TWoCWizard.Page12"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TWoCWizard"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="450"
+      Title="Page12">
+
+    <Grid>
+        <Button x:Name="button" Content="Save Settings" HorizontalAlignment="Left" Margin="162,10,0,0" VerticalAlignment="Top" Width="117" Height="45" Click="button_Click"/>
+        <Label x:Name="label" Content="You're all ready to go.&#xD;&#xA;&#xD;&#xA;In your Livesplit folder, create a folder named TWoC. Make sure the TWoC&#xD;&#xA;Load Remover program, and ASL files are in that folder.&#xD;&#xA;&#xD;&#xA;When you click save settings, it will create 4 images and a settings file,&#xD;&#xA;make sure these are also in the TWoC folder.&#xD;&#xA;&#xD;&#xA;Once that is complete, launch Livesplit, Edit layout, add a&#xD;&#xA;&quot;Scriptable Autosplitter&quot;, and chose either the XBOX or PS2 version.&#xD;&#xA;&#xD;&#xA;If you have any issues, please contact CDRomatron.&#xD;&#xA;Have fun!" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Height="223" Width="430"/>
+
+    </Grid>
+</Page>

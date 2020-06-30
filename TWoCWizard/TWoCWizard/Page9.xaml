@@ -1,0 +1,23 @@
+﻿<Page x:Class="TWoCWizard.Page9"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TWoCWizard"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="450"
+      Title="Page9">
+
+    <Grid>
+        <Image x:Name="imgPreview" HorizontalAlignment="Left" Height="100" Margin="46,32,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image x:Name="imgExample" HorizontalAlignment="Left" Height="100" Margin="295,32,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="label" Content="Preview" HorizontalAlignment="Left" Margin="67,132,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Example" HorizontalAlignment="Left" Margin="321,132,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbxX" HorizontalAlignment="Left" Height="23" Margin="190,90,0,0" TextWrapping="Wrap" Text="50" VerticalAlignment="Top" Width="55" PreviewTextInput="tbxX_PreviewTextInput"/>
+        <RepeatButton x:Name="btnXUp" Content="/\" HorizontalAlignment="Left" Margin="250,90,0,0" VerticalAlignment="Top" Width="23" Height="12" Click="btnXUp_Click" FontSize="6"/>
+        <RepeatButton x:Name="btnXDown" Content="\/" HorizontalAlignment="Left" Margin="250,102,0,0" VerticalAlignment="Top" Width="23" Height="12" Click="btnXDown_Click" FontSize="6"/>
+        <Label x:Name="labelXBOX" Content="Adjust the H value so that the word LOADING fills the entire&#xA;preview. Once this is complete proceed to the next page." HorizontalAlignment="Left" Margin="37,177,0,0" VerticalAlignment="Top" Height="105" Width="380" Visibility="Hidden"/>
+        <Label x:Name="label3" Content="H:" HorizontalAlignment="Left" Margin="159,90,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelPS2" Content="Leave this value as 50 and continue." HorizontalAlignment="Left" Margin="37,177,0,0" VerticalAlignment="Top" Height="105" Width="380" Visibility="Hidden"/>
+    </Grid>
+</Page>

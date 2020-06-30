@@ -1,0 +1,16 @@
+﻿<Page x:Class="TWoCWizard.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TWoCWizard"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="450"
+      Title="Page1">
+
+    <Grid>
+        <Label x:Name="label" Content="Welcome to the TWoC Load Remover wizard.&#xD;&#xA;Both this tool, and the load remover are in beta,&#xD;&#xA;so errors may occur, please report and issues to&#xD;&#xA;CDRomatron. &#xD;&#xA;&#xD;&#xA;This tool is used to configure your initial settings.&#xD;&#xA;Please select the version you are using:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="181" Width="430" FontSize="18"/>
+        <CheckBox x:Name="cbxps2" Content="Playstation 2" HorizontalAlignment="Left" Height="22" Margin="68,237,0,0" VerticalAlignment="Top" Width="128" FontSize="18" Checked="cbxps2_Checked" Unchecked="cbxps2_Unchecked"/>
+        <CheckBox x:Name="cbxxbox" Content="Xbox" HorizontalAlignment="Left" Height="22" Margin="239,237,0,0" VerticalAlignment="Top" Width="128" FontSize="18" Checked="cbxxbox_Checked" Unchecked="cbxxbox_Unchecked"/>
+    </Grid>
+</Page>
